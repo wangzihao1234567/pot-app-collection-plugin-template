@@ -1,7 +1,7 @@
 async function collection(source, target, options = {}) {
     const { config, utils } = options;
     const { http } = utils;
-    const { fetch, Boxy } = http;
+    const { fetch, Body } = http;
 
     const { port = 8765 } = config;
 
